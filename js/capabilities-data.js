@@ -33,7 +33,7 @@ window.CYPHER_STATEMENT = {
 
   // ---- Page 1: cover --------------------------------------------------------
   cover: {
-    photo: "assets/img/sectors/systems-engineering.webp",
+    photo: "assets/img/photos/world-map.jpg",
     titleLine1: "Corporate",
     titleLine2: "Capabilities",
     // One line under the title. Words in **double stars** print green.
@@ -188,6 +188,8 @@ window.CYPHER_STATEMENT = {
       ],
       linkText: "Ask Cypher about G.H.O.S.T.", link: "https://cypher-llc.com/contact.html" }
   ],
+  // One line under the products: how to buy.
+  howToBuy: "C.O.S.M.O is available through **Carahsoft**, the Master Government Aggregator®, and its reseller partners and contract vehicles.",
 
   // ---- Page 6: Corporate capabilities ---------------------------------------
   corporatePhoto: "assets/img/photos/green-particle-field.jpg",
@@ -226,7 +228,7 @@ window.CYPHER_STATEMENT = {
   // "note" prints small under the logo; use "" for none.
   partners: [
     { name: "Carahsoft", logo: "assets/img/partners/carahsoft.png",
-      note: "Master Government Aggregator® and reseller partner." },
+      note: "Master Government Aggregator®. C.O.S.M.O is available through Carahsoft, its resellers and contract vehicles." },
     { name: "SAIC", logo: "assets/img/partners/saic.png", note: "" },
     { name: "Raytheon", logo: "assets/img/partners/raytheon.png", note: "" }
   ],
