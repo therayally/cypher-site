@@ -170,6 +170,14 @@ window.CYPHER_STATEMENT = {
   // "logo" and "screenshot" are files in assets/img/. The screenshot is shown
   // inside a laptop drawing. "logoOnDark" is used if the logo sits on a dark panel.
   products: [
+    { name: "G.H.O.S.T.", logo: "assets/img/ghost-logo-dark.png", screenshot: "assets/img/ghost-screen.jpg",
+      text: "**Powerful AI that never leaves your building.** An on-premises AI platform: your team gets the speed of modern AI, and your data stays on hardware you control.",
+      points: [
+        "Private AI for sensitive work: data stays on your hardware",
+        "Specialist AI assistants set up for your mission",
+        "Answers questions, drafts documents, searches your files"
+      ],
+      linkText: "Ask Cypher about G.H.O.S.T.", link: "https://cypher-llc.com/contact.html" },
     { name: "C.O.S.M.O", logo: "assets/img/cosmo-horizontal.png", screenshot: "assets/img/cosmo-overview.jpg",
       text: "Cognitive Operations & Security Monitoring Orchestrator. The **AI-driven cyber intelligence platform**: its AI does the heavy lifting of a security team, from the first alert to the fix, and analysts approve.",
       points: [
@@ -178,18 +186,10 @@ window.CYPHER_STATEMENT = {
         "Builds rapid-response playbooks, firewall blocks and detection rules",
         "Takes malware apart with a council of five AI analysts"
       ],
-      linkText: "cosmoplatform.ai", link: "https://cosmoplatform.ai" },
-    { name: "G.H.O.S.T.", logo: "assets/img/ghost-logo-dark.png", screenshot: "assets/img/ghost-screen.jpg",
-      text: "**Powerful AI that never leaves your building.** An on-premises AI platform: your team gets the speed of modern AI, and your data stays on hardware you control.",
-      points: [
-        "Private AI for sensitive work: data stays on your hardware",
-        "Specialist AI assistants set up for your mission",
-        "Answers questions, drafts documents, searches your files"
-      ],
-      linkText: "Ask Cypher about G.H.O.S.T.", link: "https://cypher-llc.com/contact.html" }
+      linkText: "cosmoplatform.ai", link: "https://cosmoplatform.ai" }
   ],
   // One line under the products: how to buy.
-  howToBuy: "C.O.S.M.O is available through **Carahsoft**, the Master Government Aggregator®, and its reseller partners and contract vehicles.",
+  howToBuy: "",
 
   // ---- Page 6: Corporate capabilities ---------------------------------------
   corporatePhoto: "assets/img/photos/green-particle-field.jpg",
@@ -228,7 +228,7 @@ window.CYPHER_STATEMENT = {
   // "note" prints small under the logo; use "" for none.
   partners: [
     { name: "Carahsoft", logo: "assets/img/partners/carahsoft.png",
-      note: "Master Government Aggregator®. C.O.S.M.O is available through Carahsoft, its resellers and contract vehicles." },
+      note: "" },
     { name: "SAIC", logo: "assets/img/partners/saic.png", note: "" },
     { name: "Raytheon", logo: "assets/img/partners/raytheon.png", note: "" }
   ],
