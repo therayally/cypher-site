@@ -779,3 +779,11 @@ figure { margin: 0; }
 /* eyebrow marker: three whole dots (the repeating pattern cut the last one off) */
 .eyebrow { min-height: 22px; }
 .eyebrow::before { width: 5px; height: 5px; border-radius: 50%; background: currentColor; box-shadow: 0 -7px 0 currentColor, 0 7px 0 currentColor; margin: 0 4px 0 1px; }
+/* Ray 2026-11-03: products are never shown slanted. The device pictures slide in straight, with no 3D tilt. */
+.motion .tilt-in { transform: translate3d(40px, 0, 0); transform-origin: 50% 50%; }
+.motion .tilt-in.in, .motion .tilt-in.flat.in { transform: none; }
+.tilt-in, .duo { max-width: 100%; }
+@media (max-width: 860px) { .motion .tilt-in { transform: translate3d(0, 24px, 0); } .tilt-in .device.monitor { margin-left: 0; } }
+.device.mocked img { height: auto; aspect-ratio: auto; }
+.device.laptop.mocked { aspect-ratio: 2416 / 1400; }
+.device.monitor.mocked { aspect-ratio: 2200 / 1770; }

@@ -169,7 +169,7 @@
               (p.points && p.points.length ? '<ul class="pchecks">' + each(p.points, function (s) { return "<li>" + icon("check") + "<span>" + t(s) + "</span></li>"; }) + "</ul>" : "") +
               (p.link ? '<p class="plink"><a href="' + esc(p.link) + '">' + t(p.linkText || p.link) + " " + icon("arrow") + "</a></p>" : "") +
             "</div>" +
-            (p.screenshot ? '<figure class="device laptop mocked"><img src="' + esc(p.screenshot.replace(/^assets\/img\/([a-z-]+)\.jpg$/, "assets/img/mock/$1-macbook.webp")) + '" alt="' + esc(p.name) + ' screen"></figure>' : "") +
+            (p.screenshot ? '<figure class="device laptop mocked"><img width="2416" height="1400" src="' + esc(p.screenshot.replace(/^assets\/img\/([a-z-]+)\.jpg$/, "assets/img/mock/$1-macbook.webp")) + '" alt="' + esc(p.name) + ' screen"></figure>' : "") +
           "</section>";
         }) +
         (D.howToBuy ? '<p class="pbuy"><span class="bi">' + icon("bag") + "</span><span><b>How to buy.</b> " + t(D.howToBuy) + "</span></p>" : "") +
