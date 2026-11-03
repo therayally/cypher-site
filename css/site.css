@@ -779,7 +779,3 @@ figure { margin: 0; }
 /* eyebrow marker: three whole dots (the repeating pattern cut the last one off) */
 .eyebrow { min-height: 22px; }
 .eyebrow::before { width: 5px; height: 5px; border-radius: 50%; background: currentColor; box-shadow: 0 -7px 0 currentColor, 0 7px 0 currentColor; margin: 0 4px 0 1px; }
-/* the laptop rests in front of the desktop's chin, so the desktop's whole screen (menu, logo, bot head) stays visible */
-.duo { padding-bottom: 0; }
-.duo .monitor { width: 100%; margin: 0; }
-.duo .laptop { left: 1%; bottom: 3%; width: 34%; }
